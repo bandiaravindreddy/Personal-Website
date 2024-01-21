@@ -153,7 +153,8 @@ img{
 .aboutme{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    gap: 40px;
+    width: 90%;
     margin-left: 80px;
 
     /* border: 2px solid blueviolet; */
@@ -168,6 +169,7 @@ img{
     /* border: 2px solid black; */
 }
 .about-head{
+    margin-top: 30px;
     text-align: center;
     font-size: 40px;
     font-weight: 550px;
@@ -183,9 +185,19 @@ img{
     font-family: 'Times New Roman', Times, serif;
 
 }
+.cv{
+    display: flex;
+    flex-direction: column;
+}
 .btn2{
+    position: relative;
+    top: 30px;
+    left: 43%;
     height: 50px;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: blueviolet;
     /* background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95)); */
 }
@@ -252,21 +264,22 @@ img{
     /* background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95)); */
 }
 .education-cont{
+    width: 80%;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    font-size: 25px;
+    gap: 70px;
+    font-size: 22px;
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
 }
 .education-cont h1{
     text-align: center;
-    margin-left: 75%;
+    margin-left: 30%;
     text-decoration: underline;
 }
 .edu-section{
-    margin-left: 10%;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -281,6 +294,7 @@ img{
     /* background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95)); */
 }
 .project-cont{
+    width: 95%;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -291,13 +305,13 @@ img{
 }
 .project-cont h1{
     text-align: center;
-    margin-left: 0%;
+    margin-left: 110px;
     font-size: 37px;
     font-weight: 770px;
     text-decoration: underline;
 }
 .project-section{
-    margin-left: 5%;
+    margin-left: 6%;
     display: flex;
     flex-direction: column;
     gap: 30px;
